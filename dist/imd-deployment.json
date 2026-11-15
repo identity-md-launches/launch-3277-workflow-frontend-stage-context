@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "launchId": "91ad2891-dbb6-4e23-9d17-0e213faa2264",
+  "chainId": 1,
+  "sourceCommit": "fba4372e5a9fd01640eb01f00cd8a25a07ea7cbd",
+  "attestationHash": "1970fc71c60a7fd00289122a0192927bab23a65d6c32b585e8d3b449bbe6b203",
+  "contracts": [
+    {
+      "name": "WishGardenBurnSink",
+      "address": "0x841799c792e17afade8b44fb816adbd9d24a8e91",
+      "abiHash": "3a6b5d36492211ff2295d43ed1036a8754bb6a14638db7ac0a2e9b596759d059",
+      "abiPath": "abi/WishGardenBurnSink.json"
+    },
+    {
+      "name": "WishGardenTreasury",
+      "address": "0x929a062e0ab6266534f1ce573ba34ca7980207aa",
+      "abiHash": "3439763a6bda766de536270a934b87434f8fef85ee1ed2ae484b237dee90f8f0",
+      "abiPath": "abi/WishGardenTreasury.json"
+    },
+    {
+      "name": "WishGarden",
+      "address": "0xaabd6a747359f5478803efa7b51e929e62ec4ca2",
+      "abiHash": "7b7df65fbaf23d410c66f4678c24639ed421722ee5060587bc4ccabb104183e7",
+      "abiPath": "abi/WishGarden.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/WishGarden.json",
+      "sha256": "90ca8d5a84887bb4807a4c79d85f7bce34ec44bda757bd1d264d452ba3c798f6"
+    },
+    {
+      "path": "abi/WishGardenBurnSink.json",
+      "sha256": "e6e1306da39d911e39f344fae671f9991bf7b1f01bb081bdeac73ad6deeea65c"
+    },
+    {
+      "path": "abi/WishGardenTreasury.json",
+      "sha256": "faea32668b2d7049aaa5ad78da50649471ca3f6fe39c9fb885196e9c5a99c057"
+    },
+    {
+      "path": "assets/ccip-DpTwZt3y.js",
+      "sha256": "f973e04678b0bbdd2c729ec7e23a0ac28a3928a2c9b1e144aeeda32cc04915e7"
+    },
+    {
+      "path": "assets/cormorant-garamond-latin-600-normal-2CBVLo0M.woff",
+      "sha256": "6d837ba78b1d06e83248201bfc5de93b6e1c67aed36820021cff3db9602542c8"
+    },
+    {
+      "path": "assets/cormorant-garamond-latin-600-normal-Co1r35X9.woff2",
+      "sha256": "ae062b6d5ae308e7edf61b28b07b9984bbb6e961b1f34d9b2c2f4389c33f21ea"
+    },
+    {
+      "path": "assets/dist-DAs7bJdR.js",
+      "sha256": "5a44712e79cac254e6082b60b2259cb745e6e10c75e7ddce2d3fb7edc3ba448a"
+    },
+    {
+      "path": "assets/index-CZSbLXeG.js",
+      "sha256": "bf800509176c8739680b94500aab8274b7fadbc1aaa180d2243362702531faa3"
+    },
+    {
+      "path": "assets/index-kinLQW02.css",
+      "sha256": "0cf6f2ef96d061f44368344480acdc5e51d901848266ce65bb50a5d2ef1bdd7a"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "a730f89cb2e7488588357ff1f9f62e96d6873a0bf5e8ccb0728a4502788f8975"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d03d664dd3d94beb0603046f65573213eb462f835d0ad6c1871e7122be0b1b75"
+    },
+    {
+      "path": "og.png",
+      "sha256": "9cd78b5ad3f8e18a1086e33050a79049d3e71b01094ef1a9ab99eb9dd73ed496"
+    }
+  ],
+  "network": {
+    "chainId": 1,
+    "name": "Ethereum",
+    "testnet": false,
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "explorer": "https://etherscan.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [],
+    "uniswapV4": {
+      "poolManager": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "universalRouter": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+      "quoter": "0x52f0e24d1c21c8a0cb1e5a5dd6198556bd9e1203",
+      "stateView": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+      "positionManager": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    },
+    "pairToken": {
+      "address": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+      "symbol": "IMD",
+      "name": "Identity.md",
+      "decimals": 18
+    },
+    "otherPairTokens": [
+      {
+        "id": "fwa",
+        "address": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+        "symbol": "FWA",
+        "name": "Fake World Assets",
+        "decimals": 18
+      }
+    ]
+  },
+  "walletAddChain": {
+    "chainId": "0x1",
+    "chainName": "Ethereum",
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://etherscan.io"
+    ]
+  }
+}
